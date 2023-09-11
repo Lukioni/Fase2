@@ -1,0 +1,80 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.texto{
+    display: flex;
+    align-self: center;
+}
+.oxe{
+    display: flex;
+    justify-content: space-around;
+}
+/* Cabeçalho e Menu */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.capa{
+    width: 400px;
+    height: auto
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Conteúdo Principal */
+.main {
+    padding: 20px;
+}
+.teste-flex img{
+    width: 600px;
+}
+.teste-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.coluna img{
+    width: 100px;
+}
+/* Rodapé */
+footer {
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    
+}
+
+.coluna {
+    flex: 1;
+    text-align: center;
+}
