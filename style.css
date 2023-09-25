@@ -1,13 +1,20 @@
+
 /* Estilos Gerais */
+* img{
+
+border-radius: 50%;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: auto;
 }
 .texto{
     display: flex;
     align-self: center;
+    gap: 3px;
 }
 .oxe{
     display: flex;
@@ -46,14 +53,21 @@ nav ul li a {
     padding: 20px;
 }
 .teste-flex img{
-    width: 600px;
+    width: 100px;
+    height: 100px;
+    
 }
 .teste-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin-right: 150px;
 }
 
+#h1-main{
+   margin-left: 150px;
+   margin-right: auto;
+}
 /* Formulário */
 form {
     display: flex;
@@ -61,16 +75,18 @@ form {
     gap: 10px;
 }
 .coluna img{
-    width: 100px;
+    width: 50px;
+    height:50px
 }
 /* Rodapé */
 footer {
     
     display: flex;
     justify-content: space-around;
-    background-color: #333;
+    background-color: green;
     color: white;
     padding: 1em;
+    margin-top: 500px;
     
 }
 

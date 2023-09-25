@@ -12,20 +12,18 @@
         <h1>Cachorrolandia</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Servicos.html">Serviços</a></li>
+                
+                <li><a href="contatos.html">Contatos</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Conteúdo Principal -->
     <div class="main" >
-        <div class="oxe">
-        <p class="texto"> Cadastre seu pet agora para Serviços Exclusivos</p>
-        <img class="capa" src="capa.jpg" alt="">
+     
     </div>
 
         <!-- Formulário de Cadastro de Pets -->
@@ -45,45 +43,48 @@
                 <label for="idade">Idade:</label>
                 <input type="number" id="idade" name="idade">
 
-                <input type="submit" value="Cadastrar">
+                <input type="button" value="Cadastrar" id="botao">
             </form>
         </section>
+        <div id="pet">
+           
+        </div>
         <h1> Serviços</h1>
         <div class="teste-flex">
             <a href="">
-                <div>
+                <div id="banho">
                     <p>Banho</p>
-                <img src="como-fazer-seu-cachorro-feliz.jpg" alt="">
+                <img src="banho.jpg" alt="">
             </a>
         </div>
             <a href="">
-                <div>
+                <div id="tosa">
                     <p>Tosa</p>
                 <img src="como-fazer-seu-cachorro-feliz.jpg" alt="">
                         </div>
             </a>
             <a href="">
-                <div>
+                <div id="passeio">
                     <p>Passeio</p>
-                <img src="como-fazer-seu-cachorro-feliz.jpg" alt="">
+                <img src="passeio.jpg" alt="">
                         </div>
             </a>
             <a href="">
-                <div>
+                <div id="pet-shop">
                     <p>Pet-shop</p>
-                <img src="como-fazer-seu-cachorro-feliz.jpg" alt="">
+                <img src="pet.jpg" alt="">
                         </div>
             </a>
             <a href="">
-                <div>
+                <div id="lanches" >
                     <p>Lanches caninos</p>
-                <img src="como-fazer-seu-cachorro-feliz.jpg" alt="">
+                <img src="lanche.png" alt="">
                         </div>
             </a>
             <a href="">
-                <div>
+                <div id="clinica">
                     <p>Clinica</p>
-                <img src="como-fazer-seu-cachorro-feliz.jpg" alt="">
+                <img src="clinica.jpg" alt="">
                         </div>
             </a>
            
@@ -97,19 +98,30 @@
     <footer>
         <div class="coluna">
             
-            <p>Home</p>
-            <p>Sobre</p>
-            <p>Serviços</p>
+            <a href="Home.html">
+                <p>Home</p>
+            </a>
+            <a href="Sobre.html">
+                <p>Sobre</p>
+            </a>
+            <a href="Servicos.html">
+                <p>Serviços</p>
+            </a>
         </div>
         <div class="coluna">
             
-            <p>Produtos</p>
-            <p>Contate-nos</p>
-            <p>Login</p>
+            
+            <a href="contatos.html">
+                <p>Contate-nos</p>
+            </a>
+            <a href="">
+                <p id="login" >Login</p>
+            </a>
         </div>
         <div class="coluna">
-            <h3><img src="istockphoto-1214325113-1024x1024.jpg" alt=""></h3>
-            <p>Informações</p>
+            <p>site feito por:</p>
+        <a href="https://github.com/Lukioni"><img src="madeby.png" alt=""></a>
+         
         </div>
         <div class="coluna">
             
@@ -119,5 +131,7 @@
         </div>
     </footer>
 
+
+    <script src="js.js"></script>
 </body>
 </html>
