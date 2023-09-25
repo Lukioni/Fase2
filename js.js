@@ -50,5 +50,10 @@ const passeio = document.getElementById('passeio');
 passeio.addEventListener('click', function() {
   alert("Serviço de passeio, oferecemos ótimos passeios para o seu pet!");
 });
+const banho = document.getElementById('banho')
+
+banho.addEventListener('click', function() {
+  alert("Limpeza geral para seu pet!");
+});
 
 
